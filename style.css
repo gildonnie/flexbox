@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.red, .yellow, .blue {
+.red, .yellow, .blue, .green, .orange {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,3 +34,12 @@ body {
   align-self: flex-end;
 }
 
+.green {
+  background-color: green;
+  align-self: flex-start;
+}
+
+.orange {
+  background-color: orange;
+  align-self: flex-end;
+}
